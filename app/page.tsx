@@ -160,7 +160,7 @@ export default function PortfolioPage() {
         Minha <span className="text-[#D4AF37]">Jornada</span>
       </h2>
       <p className="text-xl text-gray-400 mb-12 text-center md:text-left">
-        Especialista N3 com 28 anos de 'trincheira' tecnológica, garantindo a resiliência de operações globais e ambientes industriais de missão crítica. Expert em arquiteturas híbridas e virtualização de alta performance (Proxmox/VMWare), atuo na intersecção entre a continuidade operacional e a segurança cibernética (ISO 27001), transformando infraestruturas complexas em ecossistemas estáveis, escaláveis e imunes a paradas não planejadas.
+        Especialista N3 com 28 anos de carreira em tecnologia, garantindo a resiliência de operações globais e ambientes industriais de missão crítica. Expert em arquiteturas híbridas e virtualização de alta performance (Proxmox/VMWare), atuo na intersecção entre a continuidade operacional e a segurança cibernética (ISO 27001), transformando infraestruturas complexas em ecossistemas estáveis, escaláveis e imunes a paradas não planejadas.
       </p>
 
       {/* TIMELINE DE EXPERIÊNCIAS */}
