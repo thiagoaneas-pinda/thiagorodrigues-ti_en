@@ -12,11 +12,11 @@ const Certificados = [
 ];
 
 const ArsenalSkills = [
-  "Ambientes Corporativos Complexos", "Virtualização (Proxmox/VMWare/Hyper-V)",
-  "Cloud Híbrida (Azure/AWS/GCP)", "Governança de TI",
+  "Complex Corporate Environments", "Virtualization (Proxmox/VMWare/Hyper-V)",
+  "Hybrid Cloud (Azure/AWS/GCP)", "IT Governance",
   "ITIL", "COBIT", "ISO27001", "Linux & Windows Server",
-  "Observabilidade (Zabbix)", "Gestão de Backups & BCP/DR", "IAM", "PAM", "CyberArk", "MFA",
-  "Auditoria & Conformidade", "Kanban", "ServiceNow", "BMCRemedy", "Zabbix",
+  "Observability (Zabbix)", "Backup & BCP/DR Management", "IAM", "PAM", "CyberArk", "MFA",
+  "Auditing & Compliance", "Kanban", "ServiceNow", "BMCRemedy", "Zabbix",
 ];
 
 const LearningSkills = [
@@ -26,55 +26,55 @@ const LearningSkills = [
 
 const experiences = [
   {
-    role: "Suporte Onsite & Infraestrutura",
+    role: "Onsite Support & Infrastructure",
     company: "Gerdau",
     period: "2008 - 2010",
-    description: "Suporte e Infraestrutura. Troubleshooting avançado e interface usuários locais."
+    description: "Support and Infrastructure. Advanced troubleshooting and user interface."
   },
   {
-    role: "Suporte Onsite & Infraestrutura",
+    role: "Onsite Support & Infrastructure",
     company: "Sidenor Villares",
     period: "2004",
-    description: "Suporte e Infraestrutura. Troubleshooting avançado e interface usuários locais."
+    description: "Support and Infrastructure. Advanced troubleshooting and user interface."
   },
   {
-    role: "Suporte Onsite & Infraestrutura",
+    role: "Onsite Support & Infrastructure",
     company: "Alstom",
     period: "2002",
-    description: "Suporte e Infraestrutura. Troubleshooting avançado e interface usuários locais."
+    description: "Support and Infrastructure. Advanced troubleshooting and user interface."
   },
   {
-    role: "Suporte Onsite & Infraestrutura",
+    role: "Onsite Support & Infrastructure",
     company: "EMBRAER",
     period: "2000",
-    description: "Suporte e Infraestrutura. Troubleshooting avançado e interface usuários locais."
+    description: "Support and Infrastructure. Advanced troubleshooting and user interface."
   },
   {
-    role: "Suporte Onsite & Infraestrutura",
+    role: "Onsite Support & Infrastructure",
     company: "Alcan - Aluminios do Brasil",
     period: "1999",
-    description: "Suporte e Infraestrutura. Troubleshooting avançado e interface usuários locais."
+    description: "Support and Infrastructure. Advanced troubleshooting and user interface."
   },
   {
-        role: "Suporte Onsite & Infraestrutura",
+    role: "Onsite Support & Infrastructure",
     company: "Confab Tubos",
     period: "1998",
-    description: "Suporte e Infraestrutura. Troubleshooting avançado e interface usuários locais."
+    description: "Support and Infrastructure. Advanced troubleshooting and user interface."
   }
 ];
 
 const mediaTopics = [
   {
-    title: "A realidade do Uptime",
-    desc: "O que realmente acontece nos bastidores para garantir 99.9% de disponibilidade em ambientes industriais de missão crítica."
+    title: "The reality of Uptime",
+    desc: "What really happens behind the scenes to guarantee 99.9% availability in mission-critical industrial environments.."
   },
   {
-    title: "Transição On-Premise x Cloud",
-    desc: "Cicatrizes, lições aprendidas e verdades não contadas nas migrações de infraestruturas complexas para o Azure."
+    title: "On-Premise x Cloud transition",
+    desc: "Scars, lessons learned, and untold truths in migrating complex infrastructures to Azure."
   },
   {
-    title: "Evolução da TI (1997-2026)",
-    desc: "Uma retrospectiva de 28 anos de carreira: do suporte físico aos clusters de virtualização modernos."
+    title: "Evolution of IT (1997-2026)",
+    desc: "A retrospective of 28 years of career: from physical support to modern virtualization clusters."
   }
 ];
 
@@ -157,10 +157,10 @@ export default function PortfolioPage() {
     <div className="flex-1 w-full md:max-w-xl">
       {/* Título com Destaque Dourado */}
       <h2 className="text-4xl md:text-5xl font-bold tracking-tight mb-4 text-center md:text-left">
-        Minha <span className="text-[#D4AF37]">Jornada</span>
+        My <span className="text-[#D4AF37]">Journey</span>
       </h2>
       <p className="text-xl text-gray-400 mb-12 text-center md:text-left">
-        Especialista N3 com 28 anos de carreira em tecnologia, garantindo a resiliência de operações globais e ambientes industriais de missão crítica. Expert em arquiteturas híbridas e virtualização de alta performance (Proxmox/VMWare), atuo na intersecção entre a continuidade operacional e a segurança cibernética (ISO 27001), transformando infraestruturas complexas em ecossistemas estáveis, escaláveis e imunes a paradas não planejadas.
+        L3 Specialist with 28 years of experience in technology, ensuring the resilience of global operations and mission-critical industrial environments. Expert in hybrid architectures and high-performance virtualization (Proxmox/VMWare), I work at the intersection of operational continuity and cybersecurity (ISO 27001), transforming complex infrastructures into stable, scalable, and resilient ecosystems.
       </p>
 
       {/* TIMELINE DE EXPERIÊNCIAS */}
@@ -172,17 +172,17 @@ export default function PortfolioPage() {
           <div className="absolute -left-[5px] top-2 h-3 w-3 rounded-full bg-[#D4AF37] shadow-[0_0_8px_rgba(212,175,55,0.6)]"></div>
           
           <div className="flex flex-col gap-1 sm:flex-row sm:items-center sm:justify-between mb-2">
-            <h3 className="text-2xl font-semibold text-white">Supervisor de TI</h3>
+            <h3 className="text-2xl font-semibold text-white">IT Supervisor</h3>
             <span className="text-sm font-medium text-[#D4AF37] bg-[#D4AF37]/10 px-3 py-1 rounded-full whitespace-nowrap">Set/2025 - Presente</span>
           </div>
-          <p className="text-lg font-medium text-gray-300 mb-2">GV do Brasil - Grupo SIMEC</p>
+          <p className="text-lg font-medium text-gray-300 mb-2">GV do Brasil - SIMEC Group</p>
           <ul className="list-disc list-outside space-y-2 pl-5 text-gray-400 text-base">
-            <li>Liderança técnica em infraestrutura, redes e segurança da informação em ambiente industrial.</li>
-            <li>Coordenação de governança de TI e padronização de processos operacionais.</li>
-            <li>Supervisão e configuração de rotinas de backup utilizando Veeam, com retenção em NAS e replicação para cloud.</li>
-            <li>Mitigação de riscos operacionais, monitoramento avançado e aumento da previsibilidade da operação.</li>
-            <li>Atuação em testes formais de BCP/DR e continuidade operacional.</li>
-            <li>Zabbix End-to-End. ashboards estratégicos, tuning de performance e monitoramento proativo para suporte à alta disponibilidade de infraestruturas globais. </li>
+            <li>Technical leadership in infrastructure, networks, and information security in industrial environments.</li>
+            <li>Coordination of IT governance and standardization of operational processes.</li>
+            <li>Supervision and configuration of backup routines using Veeam, with retention on NAS and replication to the cloud.</li>
+            <li>Risk mitigation, advanced monitoring, and improved operational predictability.</li>
+            <li>Participation in formal BCP/DR tests and operational continuity initiatives.</li>
+            <li>Zabbix End-to-End. Strategic dashboards, performance tuning, and proactive monitoring to support global infrastructure availability. </li>
           </ul>
         </div>
 
@@ -191,20 +191,20 @@ export default function PortfolioPage() {
           <div className="absolute -left-[5px] top-2 h-3 w-3 rounded-full bg-gray-600"></div>
           
           <div className="flex flex-col gap-1 sm:flex-row sm:items-center sm:justify-between mb-2">
-            <h3 className="text-2xl font-semibold text-white">Especialista em TI Nível 3</h3>
+            <h3 className="text-2xl font-semibold text-white">IT Specialist L3</h3>
             <span className="text-sm font-medium text-gray-400 bg-gray-800 px-3 py-1 rounded-full whitespace-nowrap">Fev/2010 - Ago/2025</span>
           </div>
           <p className="text-lg font-medium text-gray-300 mb-2">SLB Onesubsea</p>
           <ul className="list-disc list-outside space-y-2 pl-5 text-gray-400 text-base">
-            <li>Gestão de infraestrutura híbrida em 7 unidades operacionais, garantindo disponibilidade acima de 99,9%.</li>
-            <li>Administração e gestão de servidores Windows, criação de VMs (Hyper-V), suporte avançado e troubleshooting crítico.</li>
-            <li>Monitoramento e administração de rotinas de backup em Commvault (cloud) e Avamar (storage 512 TB), garantindo integridade e disponibilidade dos dados altamente regulamentados.</li>
-            <li>Migração de servidor on-premise para ambiente Azure, com apoio ao time global.</li>
-            <li>Atuação em testes formais de BCP/DR e continuidade operacional.</li>
-            <li>Vivência com acessos privilegiados via CyberArk integrado a MFA.</li>
-            <li>Atendimento de auditorias internas/externas, construção de evidências e execução de planos de ação.</li>
-            <li>Atuação alinhada às práticas ITIL, e governança de mudanças, incidentes e problemas, garantindo rastreabilidade e conformidade.</li>
-            <li>Vivencia com framework Agile Kanban.</li>
+            <li>Management of hybrid infrastructure in 7 operational units, ensuring availability above 99.9%.</li>
+            <li>Administration and management of Windows servers, creation of VMs (Hyper-V), advanced support and critical troubleshooting.</li>
+            <li>Monitoring and administration of backup routines in Commvault (cloud) and Avamar (storage 512 TB), ensuring integrity and availability of highly regulated data.</li>
+            <li>Migration of on-premise server to Azure environment, with support to the global team.</li>
+            <li>Participation in formal BCP/DR tests and operational continuity initiatives.</li>
+            <li>Experience with privileged access via CyberArk integrated with MFA.</li>
+            <li>Handling internal/external audits, gathering evidence, and executing action plans.</li>
+            <li>Experience with ITIL practices and change, incident, and problem governance, ensuring traceability and compliance.</li>
+            <li>Experience with Agile Kanban framework.</li>
           </ul>
         </div>
 
@@ -233,11 +233,11 @@ export default function PortfolioPage() {
         {/* Texto Foto  */}
         <div className="absolute bottom-6 left-6">
           <p className="text-sm md:text-base font-medium text-[#D4AF37] leading-relaxed drop-shadow-[0_0_8px_rgba(212,175,55,0.4)]">
-            Ambientes Corporativos Complexos <br />
-            Especialista em TI (N3) <br />
-            Governança de TI <br />
-            Cibersegurança <br />
-            Virtualização <br />
+            Complex Corporate Environments <br />
+            L3 IT Specialist<br />
+            IT Governance <br />
+            Cybersecurity <br />
+            Virtualization <br />
             Cloud
           </p>
         </div>
@@ -252,16 +252,16 @@ export default function PortfolioPage() {
         <div className="mx-auto max-w-6xl px-6 py-12">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 divide-x divide-gray-200 -mx-6 px-6">
             <div className="pl-0 md:pl-6">
-              <p className="text-sm text-gray-500 mb-1 font-medium">Bagagem</p>
+              <p className="text-sm text-gray-500 mb-1 font-medium">Baggage</p>
               <p className="text-4xl font-light text-gray-900">28 <span className="text-xl">Anos</span></p>
             </div>
             <div className="pl-4 md:pl-6">
-              <p className="text-sm text-gray-500 mb-1 font-medium">Disponibilidade</p>
+              <p className="text-sm text-gray-500 mb-1 font-medium">Availability</p>
               <p className="text-4xl font-light text-[#0076CE]">99.9%<span className="text-xl">+</span></p>
             </div>
             <div className="pl-4 md:pl-6">
-              <p className="text-sm text-gray-500 mb-1 font-medium">Foco</p>
-              <p className="text-4xl font-light text-gray-900">Evolução</p>
+              <p className="text-sm text-gray-500 mb-1 font-medium">Focus</p>
+              <p className="text-4xl font-light text-gray-900">Evolution</p>
                     
             </div>
           </div>
@@ -274,14 +274,14 @@ export default function PortfolioPage() {
           <div className="flex flex-col md:flex-row justify-between items-start gap-12 mb-16">
             <div className="max-w-2xl">
               <h2 className="text-3xl md:text-4xl font-light tracking-tight mb-4">
-                Vamos falar sobre o mundo real da Tecnologia.
+                Let's talk about the real world of Technology.
               </h2>
               <p className="text-lg text-blue-100 leading-relaxed">
-                Disponível para palestras em eventos tech, podcasts, aulas magnas e painéis de discussão. Trago histórias de campo, resolução de crises e a evolução da infraestrutura nas últimas três décadas.
+                Available for speaking engagements at tech events, podcasts, keynote presentations, and discussion panels. I bring real-world stories, crisis resolution experiences, and insights into the evolution of infrastructure over the past three decades.
               </p>
             </div>
             <a href="mailto:thiagoaneas@gmail.com" className="shrink-0 bg-white text-[#0a1f35] px-8 py-3.5 rounded text-sm font-medium hover:bg-gray-100 transition shadow-sm">
-              Agendar Participação
+              Schedule Participation
             </a>
           </div>
 
@@ -292,7 +292,7 @@ export default function PortfolioPage() {
                   className="bg-[#111] p-8 rounded-2xl border border-gray-800 transition-all duration-300 hover:border-[#D4AF37] hover:shadow-[0_0_20px_rgba(212,175,55,0.15)] group"
                 >
                 <p className="text-sm text-[#D4AF37] font-bold uppercase tracking-widest mb-3 opacity-80">
-                    Tópico {index + 1}
+                    Topic {index + 1}
                 </p>
               
                 <h3 className="text-xl font-bold text-white mb-3 group-hover:text-[#D4AF37] transition-colors">
@@ -316,10 +316,10 @@ export default function PortfolioPage() {
     <div className="grid md:grid-cols-[1fr_2fr] gap-12 items-start mb-20">
       <div>
         <h2 className="text-3xl font-light text-gray-900 tracking-tight">
-          Certificações
+          Certifications
         </h2>
         <p className="text-gray-500 mt-3 text-lg leading-relaxed">
-          Validação oficial de competências e especialidades técnicas.
+          Official validation of competencies and technical specialties.
         </p>
       </div>
 
@@ -339,10 +339,10 @@ export default function PortfolioPage() {
     <div className="grid md:grid-cols-[1fr_2fr] gap-12 items-start mb-20">
       <div>
         <h2 className="text-3xl font-light text-gray-900 tracking-tight">
-          Arsenal Técnico
+          Technical Arsenal
         </h2>
         <p className="text-gray-500 mt-3 text-lg">
-          Soluções e tecnologias dominadas ao longo da carreira.
+          Solutions and technologies mastered throughout the career.
         </p>
       </div>
 
@@ -362,10 +362,10 @@ export default function PortfolioPage() {
     <div className="grid md:grid-cols-[1fr_2fr] gap-12 items-start">
       <div>
         <h2 className="text-3xl font-light text-gray-900 tracking-tight">
-          Novos Desafios
+          New Challenges
         </h2>
         <p className="text-gray-500 mt-3 text-lg leading-relaxed">
-          Foco na contínua maestria técnica para antecipar tendências e garantir estabilidade operacional.
+          Focus on continuous technical mastery to anticipate trends and ensure operational stability.
         </p>
       </div>
 
@@ -388,8 +388,8 @@ export default function PortfolioPage() {
       <section id="experiencia" className="bg-[#f5f6f7] py-24">
         <div className="mx-auto max-w-6xl px-6">
           <div className="mb-12">
-            <h2 className="text-3xl font-light text-gray-900 tracking-tight">Histórico Operacional</h2>
-            <p className="text-gray-500 mt-2 text-lg">Trajetória e impacto em ambientes corporativos.</p>
+            <h2 className="text-3xl font-light text-gray-900 tracking-tight">Operational History</h2>
+            <p className="text-gray-500 mt-2 text-lg">Career trajectory and impact in corporate environments.</p>
           </div>
 
           <div className="space-y-6">
@@ -417,10 +417,10 @@ export default function PortfolioPage() {
           <div className="grid md:grid-cols-2 gap-12 border-b border-gray-700 pb-12 mb-8">
             <div>
               <h2 className="text-2xl font-light text-white mb-4">
-                Pronto para o próximo desafio.
+                Ready for the next challenge.
               </h2>
               <p className="text-gray-400 max-w-md leading-relaxed">
-                Seja para integrar um time estratégico ou para um papo técnico sobre o mercado de infraestrutura, entre em contato.
+                Whether you're looking to integrate with a strategic team or have a technical discussion about the infrastructure market, feel free to reach out.
               </p>
             </div>
             
@@ -432,7 +432,7 @@ export default function PortfolioPage() {
           </div>
 
           <div className="flex flex-col md:flex-row justify-between items-center gap-4 text-sm text-gray-500">
-            <p>© {new Date().getFullYear()} Thiago Rodrigues. Todos os direitos reservados.</p>
+            <p>© {new Date().getFullYear()} Thiago Rodrigues. All rights reserved.</p>
             <div className="flex gap-6">
               <a href="https://www.linkedin.com/in/thiagorodrigues-ti" className="hover:text-white transition">LinkedIn</a>
               <a href="#podcasts" className="hover:text-white transition">Media Kit</a>
