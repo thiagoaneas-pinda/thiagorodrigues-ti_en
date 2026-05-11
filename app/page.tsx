@@ -253,7 +253,7 @@ export default function PortfolioPage() {
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 divide-x divide-gray-200 -mx-6 px-6">
             <div className="pl-0 md:pl-6">
               <p className="text-sm text-gray-500 mb-1 font-medium">Baggage</p>
-              <p className="text-4xl font-light text-gray-900">28 <span className="text-xl">Anos</span></p>
+              <p className="text-4xl font-light text-gray-900">28 <span className="text-xl">Years</span></p>
             </div>
             <div className="pl-4 md:pl-6">
               <p className="text-sm text-gray-500 mb-1 font-medium">Availability</p>
