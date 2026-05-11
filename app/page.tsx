@@ -173,7 +173,7 @@ export default function PortfolioPage() {
           
           <div className="flex flex-col gap-1 sm:flex-row sm:items-center sm:justify-between mb-2">
             <h3 className="text-2xl font-semibold text-white">IT Supervisor</h3>
-            <span className="text-sm font-medium text-[#D4AF37] bg-[#D4AF37]/10 px-3 py-1 rounded-full whitespace-nowrap">Set/2025 - Presente</span>
+            <span className="text-sm font-medium text-[#D4AF37] bg-[#D4AF37]/10 px-3 py-1 rounded-full whitespace-nowrap">Sep/2025 - Present</span>
           </div>
           <p className="text-lg font-medium text-gray-300 mb-2">GV do Brasil - SIMEC Group</p>
           <ul className="list-disc list-outside space-y-2 pl-5 text-gray-400 text-base">
@@ -192,7 +192,7 @@ export default function PortfolioPage() {
           
           <div className="flex flex-col gap-1 sm:flex-row sm:items-center sm:justify-between mb-2">
             <h3 className="text-2xl font-semibold text-white">IT Specialist L3</h3>
-            <span className="text-sm font-medium text-gray-400 bg-gray-800 px-3 py-1 rounded-full whitespace-nowrap">Fev/2010 - Ago/2025</span>
+            <span className="text-sm font-medium text-gray-400 bg-gray-800 px-3 py-1 rounded-full whitespace-nowrap">Feb/2010 - Aug/2025</span>
           </div>
           <p className="text-lg font-medium text-gray-300 mb-2">SLB Onesubsea</p>
           <ul className="list-disc list-outside space-y-2 pl-5 text-gray-400 text-base">
