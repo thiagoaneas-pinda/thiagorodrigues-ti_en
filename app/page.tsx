@@ -16,12 +16,12 @@ const ArsenalSkills = [
   "Hybrid Cloud (Azure/AWS/GCP)", "IT Governance",
   "ITIL", "COBIT", "ISO27001", "Linux & Windows Server",
   "Observability (Zabbix)", "Backup & BCP/DR Management", "IAM", "PAM", "CyberArk", "MFA",
-  "Auditing & Compliance", "Kanban", "ServiceNow", "BMCRemedy", "Zabbix",
+  "Auditing & Compliance", "Kanban", "ServiceNow", "BMCRemedy", 
 ];
 
 const LearningSkills = [
   "Python", "ShellScript", "Oracle RAC", 
-  "React", "Node.js", "Next.js",
+  "React", "Node.js", "Next.js", "Terraform"
 ];
 
 const experiences = [
