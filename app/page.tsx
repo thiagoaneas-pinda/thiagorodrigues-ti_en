@@ -16,7 +16,8 @@ const ArsenalSkills = [
   "Hybrid Cloud (Azure/AWS/GCP)", "IT Governance",
   "ITIL", "COBIT", "ISO27001", "Linux & Windows Server",
   "Observability (Zabbix)", "Backup & BCP/DR Management", "IAM", "PAM", "CyberArk", "MFA",
-  "Auditing & Compliance", "Kanban", "ServiceNow", "BMCRemedy", "Veeam", "Commvault", "Avamar", "Azure Migration"
+  "Auditing & Compliance", "Kanban", "ServiceNow", "BMCRemedy", "Veeam", "Commvault", "Avamar", "Azure Migration",
+  "Microsoft 365", "Active Directory", "Azure AD", "PowerShell"
 ];
 
 const LearningSkills = [
